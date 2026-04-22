@@ -1,20 +1,37 @@
-Data Science Assignment
+ Trader Behaviour Analysis (Fear vs Greed)
 
-This project explores how trader behaviour changes during Fear and Greed market sentiment.
+1. Project Objective
 
-A. Files Included
+  This project analyzes how trader behavior changes under different market sentiments specifically Fear and Greed using historical trading data.
 
-- notebook_1.ipynb
-- ds_report.pdf
-- csv_files/ (cleaned data)
-- outputs/ (graphs and charts)
+2. Project Structure
 
-B. How to Run
+  notebook_1.ipynb → Main analysis notebook
+  ds_report.pdf → Detailed project report
+  csv_files/ → Cleaned datasets used for analysis
+  outputs/ → Generated graphs and visualizations
 
-1. Open notebook_1.ipynb in Google Colab.
-2. Upload the datasets.
-3. Run each cell one by one.
+3. Technologies Used
 
-C. Summary
+   Python
+   Pandas
+   NumPy
+   Matplotlib / Seaborn
+   Google Colab
 
-The notebook loads data, cleans it, merges it, and shows insights using graphs.
+4. Key Insights
+
+  Trader activity increases significantly during Greed phases
+  Higher volatility observed during Fear periods
+  Behavioral patterns indicate emotional decision-making impacts trading volume
+
+5.Conclusion
+
+  The analysis shows that market sentiment plays a crucial role in influencing trader behavior, which can be useful for predicting market trends and making           informed decisions.
+
+6. Future Improvements
+
+   Add machine learning model for prediction
+   Include real-time data analysis
+   Improve visualization dashboards
+
